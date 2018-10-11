@@ -27,48 +27,9 @@
   <?php
     include('auth.html');
     include('register.html');
+    include('menu.html');
   ?>
 
-    <!-- Menu en accordéon -->
-
-
-    <div class="row" id="menu1">
-      <div class="col-2 m-0 p-0">
-        <div class="cote">
-          <div class="lolilol">
-            <p>Lundi</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-2 m-0 p-0">
-        <div class="cote">
-          <div class="lolilol">
-            <p>Mardi</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-2 m-0 p-0">
-        <div class="cote">
-          <div class="lolilol">
-            <p>Mercredi</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-2 m-0 p-0">
-        <div class="cote">
-          <div class="lolilol">
-            <p>Jeudi</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-2 m-0 p-0">
-        <div class="cote">
-          <div class="lolilol">
-            <p>Vendredi</p>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
