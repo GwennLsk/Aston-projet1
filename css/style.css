@@ -73,8 +73,15 @@ li
   padding: 15px;
 }
 
-a
+.a-nav
 {
-  color: white;
+  color: #ffffff;
   font-weight: bold;
+}
+
+.a-nav:hover
+{
+  color: #ffffff;
+  list-style: none;
+  text-decoration: none;
 }
