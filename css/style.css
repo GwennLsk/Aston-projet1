@@ -101,7 +101,8 @@ h1.h1-title
 .field_input
 {
 	border: solid black;
-	width: 75%;
+	width: 80%;
+	height: 45px;
 }
 /* ************************ profil ************************ */
 #infos
