@@ -81,7 +81,13 @@ li
 
 .a-nav:hover
 {
-  color: #ffffff;
+  color: black;
   list-style: none;
   text-decoration: none;
+}
+
+h1.h1-title
+{
+  color: #ffffff;
+  font-size: 25px;
 }
