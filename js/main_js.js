@@ -1,1 +1,1 @@
-$('h1').append('bonjour');
+// $('h1').append('bonjour');
