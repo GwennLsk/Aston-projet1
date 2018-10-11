@@ -25,6 +25,7 @@
     <?php
       include('auth.html');
       include('register.html');
+      include('reset_pwd.html');
     ?>
     
     <!-- Optional JavaScript -->
