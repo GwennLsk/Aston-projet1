@@ -125,3 +125,50 @@ h1.h1-title
 	height: 25px;
 	line-height: 0;
 }
+
+#commandes thead
+{
+	background-color: #34C765;
+}
+table
+{
+	border-spacing: 10px;
+}
+tbody tr
+{
+	border: 5px solid black;
+}
+.order-header
+{
+	height: 50px;
+	background-color: #34C765;
+}
+.order
+{
+	border: 5px solid black
+}
+.btn-delete
+{
+	background-color: #E53B3B;
+	color: white;
+	border-radius: 0;
+	font-weight: 900;
+}
+.btn-delete:hover
+{
+	background-color: #E53B3B !important;
+	color: black
+}
+.solde
+{
+	position: absolute;
+	right: 4%;
+	top: 16%;
+	background-color: #34C765;
+	border-radius: 500px;
+}
+.solde-value
+{
+	font-size: 30px;
+	font-weight: 900;
+}
