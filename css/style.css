@@ -43,6 +43,12 @@
 **	Background of the Sign In / Register page
 */
 
+.clickable
+{
+	color: #34C765;
+	cursor: pointer;
+}
+
 .white_grey_bg
 {
 	background-color: #efefef;
@@ -57,7 +63,8 @@ body
 **	All function till .a-nav:hover are style for the top Nav
 */
 
-.hide{
+.hide
+{
 	display: none;
 }
 
@@ -74,6 +81,7 @@ body
   margin-right: 30px;
   border: solid #fff;
   padding: 15px;
+  cursor: pointer;
 }
 
 h1.h1-title
@@ -107,6 +115,7 @@ h1.h1-title
 	height: calc(100vh - 100px);
 	background-color: #34C765;
 }
+
 #infos h2
 {
 	font-weight: 900;
@@ -122,3 +131,79 @@ h1.h1-title
 	height: 25px;
 	line-height: 0;
 }
+
+#commandes thead
+{
+	background-color: #34C765;
+}
+
+table
+{
+	border-spacing: 10px;
+}
+
+tbody tr
+{
+	border: 5px solid black;
+}
+
+.order-header
+{
+	height: 50px;
+	background-color: #34C765;
+}
+
+.order
+{
+	border: 5px solid black
+}
+
+.btn-delete
+{
+	background-color: #E53B3B;
+	color: white;
+	border-radius: 0;
+	font-weight: 900;
+}
+
+.btn-delete:hover
+{
+	background-color: #E53B3B !important;
+	color: black
+}
+
+.solde
+{
+	position: absolute;
+	right: 4%;
+	top: 16%;
+	background-color: #34C765;
+	border-radius: 500px;
+}
+
+.solde-value
+{
+	font-size: 30px;
+	font-weight: 900;
+}
+/************ Menu en Accordéon *****************/
+.cote p {
+  position: absolute;
+  top: 31%;
+  left: 6%;
+  width: 100%;
+}
+
+.cote {
+  position: absolute;
+  left: 6%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: black;
+  top: 182px;
+  font-size: 1.6rem;
+  text-align: center;
+  width: 364px;
+  padding: 57px;
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+
