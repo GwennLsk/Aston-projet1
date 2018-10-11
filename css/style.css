@@ -58,7 +58,8 @@ body
 
 .navbar
 {
-  background-color: #34C765;
+	background-color: #34C765;
+	height: 100px;
 }
 
 ul
@@ -101,4 +102,25 @@ h1.h1-title
 {
 	border: solid black;
 	width: 75%;
+}
+/* ************************ profil ************************ */
+#infos
+{
+	height: calc(100vh - 100px);
+	background-color: #34C765;
+}
+#infos h2
+{
+	font-weight: 900;
+}
+
+#profil .modify
+{
+	background-color: transparent;
+	border: 5px solid white;
+	color: white;
+	font-weight: 900;
+	border-radius: 0;
+	height: 25px;
+	line-height: 0;
 }
