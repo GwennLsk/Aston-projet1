@@ -15,12 +15,12 @@
 	border-radius: 5px;
 	padding: 10px 20px;
 	cursor: pointer;
-	transition: all ease 1s;
 }
 .btn:hover
 {
 	background-color: #34C765 !important;
 	color: white;
+	border: solid;
 }
 
 /*
@@ -62,14 +62,7 @@ li
 {
   display: inline-block;
   margin-right: 30px;
-  border: solid 7px #fff;
-  clip-path: polygon(
-    calc(0% + 5px) calc(0% + 5px), /* top left */
-    calc(100% - 5px) calc(0% + 5px), /* top right */
-    calc(100% - 5px) calc(100% - 5px), /* bottom right */
-    calc(0% + 5px) calc(100% - 5px) /* bottom left */
-  );
-  transition: clip-path 0.6s linear;
+  border: solid #fff;
   padding: 15px;
 }
 
@@ -90,4 +83,10 @@ h1.h1-title
 {
   color: #ffffff;
   font-size: 25px;
+}
+
+.border_input
+{
+	border: solid black;
+	width: 75%;
 }
