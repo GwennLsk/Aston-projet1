@@ -80,6 +80,12 @@ li
   font-weight: bold;
 }
 
+h1.h1-title
+{
+  color: #ffffff;
+  font-size: 25px;
+}
+
 .a-nav:hover
 {
   color: black;
