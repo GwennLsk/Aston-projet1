@@ -3,6 +3,11 @@
 	text-align: center;
 	margin: auto;
 }
+
+/*
+**	Style button standard
+*/
+
 .btn
 {
 	background-color: #FFFFFF;
@@ -10,6 +15,11 @@
 	border-radius: 5px;
 	padding: 10px 20px;
 }
+
+/*
+**	Style box (exemple : connexion)
+*/
+
 .boxstyle
 {
 	margin-top: 30px;
@@ -20,7 +30,51 @@
 	margin-bottom: 30px;
 	border: 1px solid #e5e5e5;
 }
+
 .white_grey_bg
 {
 	background-color: #efefef;
+}
+
+body
+{
+  font-family: 'Poppins', sans-serif;
+}
+
+h1
+{
+  color: #fff;
+  font-size: 25px;
+}
+
+.navbar
+{
+  background-color: #34C765;
+}
+
+ul
+{
+  list-style: none;
+
+}
+
+li
+{
+  display: inline-block;
+  margin-right: 30px;
+  border: solid 7px #fff;
+  clip-path: polygon(
+    calc(0% + 5px) calc(0% + 5px), /* top left */
+    calc(100% - 5px) calc(0% + 5px), /* top right */
+    calc(100% - 5px) calc(100% - 5px), /* bottom right */
+    calc(0% + 5px) calc(100% - 5px) /* bottom left */
+  );
+  transition: clip-path 0.6s linear;
+  padding: 15px;
+}
+
+a
+{
+  color: white;
+  font-weight: bold;
 }
