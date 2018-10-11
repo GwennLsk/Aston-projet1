@@ -16,6 +16,7 @@
 	padding: 10px 20px;
 	cursor: pointer;
 }
+
 .btn:hover
 {
 	background-color: #34C765 !important;
@@ -56,29 +57,23 @@ body
 **	All function till .a-nav:hover are style for the top Nav
 */
 
+.hide{
+	display: none;
+}
+
 .navbar
 {
 	background-color: #34C765;
-	height: 100px;
-}
-
-ul
-{
-  list-style: none;
-}
-
-li
-{
-  display: inline-block;
-  margin-right: 30px;
-  border: solid #fff;
-  padding: 15px;
 }
 
 .a-nav
 {
   color: #ffffff;
   font-weight: bold;
+  display: inline-block;
+  margin-right: 30px;
+  border: solid #fff;
+  padding: 15px;
 }
 
 h1.h1-title

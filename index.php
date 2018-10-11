@@ -16,14 +16,16 @@
 
     <!-- Image and text -->
     <nav class="navbar navbar-light">
-      <h1 class="h1-title"> <a href="index.html" class="a-nav">Stone éducation</a></h1>
-      <ul>
-        <li><a class="a-nav" href="register.html">Inscription</a></li>
-        <li><a class="a-nav" href="auth.html">Connexion</a></li>
-      </ul>
+      <h1 class="h1-title"> <a href="index.php" class="a-nav">Stone éducation</a></h1>
+      <div>
+        <div class="a-nav" value="register">Inscription</div>
+        <div class="a-nav" value="auth">Connexion</div>
     </nav>
-    <div class="container">
-    </div>
+    
+    <?php
+      include('auth.html');
+      include('register.html');
+    ?>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
