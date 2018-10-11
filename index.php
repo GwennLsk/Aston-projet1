@@ -13,16 +13,22 @@
 
     <title>Accueil - Stone Éducation</title>
   </head>
-  <body>
+  <body class="white_grey_bg">
 
     <!-- Image and text -->
     <nav class="navbar navbar-light">
-      <h1 class="a-nav"><a href="index.html" class="a-nav">Stone éducation</a></h1>
-      <ul>
-        <li><a class="a-nav" href="Inscription">Inscription</a></li>
-        <li><a class="a-nav" href="auth.html">Connexion</a></li>
-      </ul>
-    </nav>
+
+    <h1 class="h1-title"> <a href="index.php" class="a-nav">Stone éducation</a></h1>
+    <div>
+      <div class="a-nav" value="register">Inscription</div>
+      <div class="a-nav" value="auth">Connexion</div>
+  </nav>
+
+  <?php
+    include('auth.html');
+    include('register.html');
+  ?>
+
     <!-- Menu en accordéon -->
 
 
