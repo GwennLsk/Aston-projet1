@@ -70,6 +70,7 @@ li
 {
   color: #ffffff;
   font-weight: bold;
+  font-size: 25px;
 }
 
 .a-nav:hover
@@ -79,14 +80,29 @@ li
   text-decoration: none;
 }
 
-h1.h1-title
-{
-  color: #ffffff;
-  font-size: 25px;
-}
-
 .border_input
 {
 	border: solid black;
 	width: 75%;
+}
+
+/************ Menu en Accordéon *****************/
+.cote p {
+  position: absolute;
+  top: 31%;
+  left: 6%;
+  width: 100%;
+}
+
+.cote {
+  position: absolute;
+  left: 6%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: black;
+  top: 182px;
+  font-size: 1.6rem;
+  text-align: center;
+  width: 364px;
+  padding: 57px;
+  transform: translate(-50%, -50%) rotate(-90deg);
 }
