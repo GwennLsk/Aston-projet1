@@ -16,6 +16,7 @@
 	padding: 10px 20px;
 	cursor: pointer;
 }
+
 .btn:hover
 {
 	background-color: #34C765 !important;
@@ -38,6 +39,10 @@
 	border: 1px solid #e5e5e5;
 }
 
+/*
+**	Background of the Sign In / Register page
+*/
+
 .white_grey_bg
 {
 	background-color: #efefef;
@@ -48,28 +53,36 @@ body
   font-family: 'Poppins', sans-serif;
 }
 
+/*
+**	All function till .a-nav:hover are style for the top Nav
+*/
+
+.hide{
+	display: none;
+}
+
 .navbar
 {
-  background-color: #34C765;
-}
-
-ul
-{
-  list-style: none;
-}
-
-li
-{
-  display: inline-block;
-  margin-right: 30px;
-  border: solid #fff;
-  padding: 15px;
+	background-color: #34C765;
 }
 
 .a-nav
 {
   color: #ffffff;
   font-weight: bold;
+  display: inline-block;
+  margin-right: 30px;
+  border: solid #fff;
+  padding: 15px;
+}
+
+h1.h1-title
+{
+  color: #ffffff;
+<<<<<<< HEAD
+  font-weight: bold;
+=======
+>>>>>>> cdaa03bf05c3dafd43f26d8a9bf4879a28253a64
   font-size: 25px;
 }
 
@@ -80,12 +93,32 @@ li
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 .border_input
+=======
+/*
+**	Style for the field
+*/
+
+.field_input
+>>>>>>> cdaa03bf05c3dafd43f26d8a9bf4879a28253a64
 {
 	border: solid black;
-	width: 75%;
+	width: 80%;
+	height: 45px;
+}
+/* ************************ profil ************************ */
+#infos
+{
+	height: calc(100vh - 100px);
+	background-color: #34C765;
+}
+#infos h2
+{
+	font-weight: 900;
 }
 
+<<<<<<< HEAD
 /************ Menu en Accordéon *****************/
 .cote p {
   position: absolute;
@@ -106,3 +139,15 @@ li
   padding: 57px;
   transform: translate(-50%, -50%) rotate(-90deg);
 }
+=======
+#profil .modify
+{
+	background-color: transparent;
+	border: 5px solid white;
+	color: white;
+	font-weight: 900;
+	border-radius: 0;
+	height: 25px;
+	line-height: 0;
+}
+>>>>>>> cdaa03bf05c3dafd43f26d8a9bf4879a28253a64
