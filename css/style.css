@@ -1,0 +1,26 @@
+.center
+{
+	text-align: center;
+	margin: auto;
+}
+.btn
+{
+	background-color: #FFFFFF;
+	border: 1px solid #c8c8c8;
+	border-radius: 5px;
+	padding: 10px 20px;
+}
+.boxstyle
+{
+	margin-top: 30px;
+	background-color: #FFFFFF;
+	-webkit-box-shadow: 5px -5px 5px 0px rgba(171,171,171,0.78);
+	-moz-box-shadow: 5px -5px 5px 0px rgba(171,171,171,0.78);
+	box-shadow: 5px -5px 5px 0px rgba(171,171,171,0.78);
+	margin-bottom: 30px;
+	border: 1px solid #e5e5e5;
+}
+.white_grey_bg
+{
+	background-color: #efefef;
+}
