@@ -38,6 +38,10 @@
 	border: 1px solid #e5e5e5;
 }
 
+/*
+**	Background of the Sign In / Register page
+*/
+
 .white_grey_bg
 {
 	background-color: #efefef;
@@ -47,6 +51,10 @@ body
 {
   font-family: 'Poppins', sans-serif;
 }
+
+/*
+**	All function till .a-nav:hover are style for the top Nav
+*/
 
 .navbar
 {
@@ -79,7 +87,11 @@ li
   text-decoration: none;
 }
 
-.border_input
+/*
+**	Style for the field
+*/
+
+.field_input
 {
 	border: solid black;
 	width: 75%;
