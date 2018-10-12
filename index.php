@@ -39,15 +39,7 @@
       include('basket.html');
     ?>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-12 center">
-          <div class="clickable" value="basket">
-            Basket
-          </div>
-        </div>
-      </div>
-    </div>
+
 
     <footer class="container-fluid dev-nav text-white">
       <div class="row">
