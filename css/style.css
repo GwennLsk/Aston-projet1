@@ -108,6 +108,14 @@ h1.h1-title
 	height: 45px;
 }
 
+.circle_base
+{
+	border-radius: 100%;
+	width: 200px;
+    height: 200px;
+    background-color: #34C765;
+}
+
 /* ************************ profil ************************ */
 
 #infos
@@ -186,7 +194,9 @@ tbody tr
 	font-size: 30px;
 	font-weight: 900;
 }
+
 /************ Menu en Accordéon *****************/
+
 .cote p {
   position: absolute;
   top: 31%;

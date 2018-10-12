@@ -6,12 +6,14 @@ $( document ).ready(function()
 {
   $("#menu1").accordion();
   
-	var $register = $("#register");
 	var $auth = $("#auth");
+	var $basket = $("#basket");
+	var $register = $("#register");
 	var $reset_pwd = $("#reset_pwd");
 
-	$register.hide();
 	$auth.hide();
+	$basket.hide();
+	$register.hide();
 	$reset_pwd.hide();
 
 //	for a clickable link, Use the class clickable
