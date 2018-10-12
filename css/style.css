@@ -219,21 +219,6 @@ tbody tr
 	border: 5px solid;
 }
 
-/************ Adminsitration *****************/
-.container {
-	border: 1px solid black;
-	margin-bottom: 25px;
-}
-.title-bold {
-	font-weight: bold;
-	color: black;
-}
-
-.list-group {
-	border: 1px solid black;
-	margin-bottom: 25px;
-}
-
 .menu h2
 {
 	font-weight: 900;
@@ -279,4 +264,18 @@ tbody tr
 	height: 20px;
 	text-align: center;
 	line-height: 20px;
+}
+/************ Adminsitration *****************/
+#list-orders {
+	border: 5px solid black;
+	margin-bottom: 25px;
+}
+.title-bold {
+	font-weight: bold;
+	color: black;
+}
+
+.order-admin {
+	border: 5px solid black;
+	margin-bottom: 25px;
 }

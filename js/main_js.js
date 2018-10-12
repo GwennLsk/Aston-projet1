@@ -7,6 +7,7 @@ $( document ).ready(function()
 	var $reset_pwd = $("#reset_pwd");
 	var $menu = $("#menu");
 	var $profil = $("#profil");
+	var $administration = $("#administration");
 
 
 	$auth.hide();
@@ -14,7 +15,8 @@ $( document ).ready(function()
 	$register.hide();
 	$reset_pwd.hide();
 	// $menu.hide();
-	$profil.hide()
+	$profil.hide();
+	$administration.hide();
 
 //	for a clickable link, Use the class clickable
     $(".a-nav, .clickable").on("click", function()
