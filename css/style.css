@@ -163,7 +163,7 @@ tbody tr
 
 .order
 {
-	border: 5px solid black
+	border: 5px solid black;
 }
 
 .btn-delete
@@ -177,7 +177,7 @@ tbody tr
 .btn-delete:hover
 {
 	background-color: #E53B3B !important;
-	color: black
+	color: black;
 }
 
 .solde
@@ -217,6 +217,21 @@ tbody tr
 .nav-day
 {
 	border: 5px solid;
+}
+
+/************ Adminsitration *****************/
+.container {
+	border: 1px solid black;
+	margin-bottom: 25px;
+}
+.title-bold {
+	font-weight: bold;
+	color: black;
+}
+
+.list-group {
+	border: 1px solid black;
+	margin-bottom: 25px;
 }
 
 .menu h2
