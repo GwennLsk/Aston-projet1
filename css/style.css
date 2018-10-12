@@ -197,23 +197,43 @@ tbody tr
 
 /************ Menu en Accordéon *****************/
 
-.cote p {
+.cote p
+{
   position: absolute;
   top: 31%;
   left: 6%;
   width: 100%;
+
+.day
+{
+	position: absolute;
+	border: 5px solid;
+	display: none;
+	width: 100%;
+	height: 100%;
 }
 
-.cote {
-  position: absolute;
-  left: 6%;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: black;
-  top: 182px;
-  font-size: 1.6rem;
-  text-align: center;
-  width: 364px;
-  padding: 57px;
-  transform: translate(-50%, -50%) rotate(-90deg);
+.nav-day
+{
+	border: 5px solid;
 }
 
+.menu h2
+{
+	font-weight: 900;
+}
+
+.active
+{
+	background-color: #34C765;
+}
+
+.today
+{
+	border: 5px solid #34C765
+}
+
+.past
+{
+	opacity: 0.7;
+}
