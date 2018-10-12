@@ -31,6 +31,7 @@
       include('auth.html');
       include('register.html');
       include('reset_pwd.html');
+      include('menu.html');
     ?>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
