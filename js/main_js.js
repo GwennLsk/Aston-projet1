@@ -5,11 +5,16 @@ $( document ).ready(function()
 	var $basket = $("#basket");
 	var $register = $("#register");
 	var $reset_pwd = $("#reset_pwd");
+	var $menu = $("#menu");
+	var $profil = $("#profil");
+
 
 	$auth.hide();
 	$basket.hide();
 	$register.hide();
 	$reset_pwd.hide();
+	// $menu.hide();
+	$profil.hide()
 
 //	for a clickable link, Use the class clickable
     $(".a-nav, .clickable").on("click", function()
@@ -18,6 +23,17 @@ $( document ).ready(function()
     	$("#" + $(this).attr("value")).show();
 	});
 
+	$('.close-nav').click(function(){
+		console.log('dev');
+		
+		let devNav = $('.dev-nav');
+		if(devNav.css('display') == 'none' ){
+			devNav.show();
+
+		}else{
+			devNav.hide()
+		}
+	})
 
 	function CurrentMenu() 
 	{ 
