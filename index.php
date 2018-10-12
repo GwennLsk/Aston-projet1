@@ -18,18 +18,22 @@
     <!-- Image and text -->
     <nav class="navbar navbar-light">
 
-    <h1 class="h1-title"> <a href="index.php" class="a-nav">Stone éducation</a></h1>
-    <div>
-      <div class="a-nav" value="register">Inscription</div>
-      <div class="a-nav" value="auth">Connexion</div>
-  </nav>
+      <h1 class="h1-title">
+        <a href="index.php" class="a-nav">
+          Stone éducation
+        </a>
+      </h1>
+      <div>
+        <div class="a-nav" value="register">Inscription</div>
+        <div class="a-nav" value="auth">Connexion</div>
+    </nav>
+    <?php
 
-  <?php
-    include('auth.html');
-    include('register.html');
-    include('menu.html');
-  ?>
-
+      include('auth.html');
+      include('register.html');
+      include('reset_pwd.html');
+      include('menu.html');
+    ?>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
